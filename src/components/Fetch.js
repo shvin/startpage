@@ -14,17 +14,29 @@ const Fetch = ({ closeCallback }) => {
 	const [info, setInfo] = useState({})
 	const { settings } = useSettings()
 
+	var time = new Date().toLocaleTimeString('en-us', {
+		hour: "2-digit",
+		minute: "2-digit"
+	})
+
 	useEffect(() => {
-		setInfo({
-			time: moment().format(settings.fetch.timeFormat),
-			date: moment().format(settings.fetch.dateFormat),
-			osName: osName,
-			browser: browserName,
-			browserLower: browserName.toLowerCase(),
-			browserVersion: browserVersion,
-			engineName: engineName,
-			engineVersion: engineVersion
-		})
+		// set the weather using the openweather api with the user's city and api key from the settings. the weather should consist of the temperature, and weather description
+		const url = `https://api.openweathermap.org/data/2.5/weather?q=Ottawa&appid=0b7cd1353f02d9664e967d7b4db40e98&units=metric`
+		fetch(url)
+			.then((response) => response.json())
+			.then((data) => {
+				setInfo({
+					weather: data.weather[0].main,
+					temp: data.main.temp,
+					date: moment().format(settings.fetch.dateFormat),
+					osName: osName,
+					browser: browserName,
+					browserLower: browserName.toLowerCase(),
+					browserVersion: browserVersion,
+					engineName: engineName,
+					engineVersion: engineVersion
+				})
+			})
 	}, [])
 
 	return (
@@ -52,7 +64,7 @@ const Fetch = ({ closeCallback }) => {
 										className={`text-${settings.fetch.titleColor}`}>
 										Time:
 									</span>{" "}
-									{info.time}
+									{time}
 								</li>
 								<li>
 									<span
@@ -60,6 +72,13 @@ const Fetch = ({ closeCallback }) => {
 										Date:
 									</span>{" "}
 									{info.date}
+								</li>
+								<li>
+									<span
+										className={`text-${settings.fetch.titleColor}`}>
+										Weather:
+									</span>{" "}
+									{info.weather}, {info.temp}°C
 								</li>
 							</ul>
 							<ul className="mt-line">

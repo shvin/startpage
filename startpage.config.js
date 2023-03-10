@@ -32,9 +32,10 @@ const defaultConfig = {
 		orange: "#ff8800"
 	},
 	fetch: {
-		timeFormat: "HH:mm",
-		dateFormat: "DD/MM/YYYY",
-		titleColor: "yellow"
+		dateFormat: "MM/DD/YYYY",
+		titleColor: "yellow",
+		weatherAPIkey: "0b7cd1353f02d9664e967d7b4db40e98",
+		weatherCity: "Ottawa"
 	},
 	urlLaunch: {
 		target: "_self"
