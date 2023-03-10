@@ -8,7 +8,7 @@ const defaultConfig = {
 	},
 	prompt: {
 		ctrlC: true,
-		placeholder: "command...",
+		placeholder: "cmd...",
 		userColor: "green",
 		atColor: "gray",
 		hostColor: "magenta",
@@ -89,23 +89,23 @@ const defaultConfig = {
 			links: [
 				{
 					name: "Portfolio",
-					url: "https://cancellek.com",
+					url: "https://a.shvin.dev",
 					icon: "mdi:web"
 				},
 				{
-					name: "Keybase",
-					url: "https://keybase.io/",
-					icon: "fa-brands:keybase"
+					name: "Devmail",
+					url: "https://mail.google.com/mail/u/0/#inbox",
+					icon: "mdi:email-lock"
 				},
 				{
-					name: "GPT",
-					url: "https://chat.openai.com/",
-					icon: "simple-icons:openai"
+					name: "Gmail",
+					url: "https://mail.google.com/mail/u/1/#inbox",
+					icon: "mdi:gmail"
 				},
 				{
-					name: "OCI",
-					url: "https://www.oracle.com/cloud/",
-					icon: "simple-icons:oracle"
+					name: "Outlook",
+					url: "https://outlook.office.com/mail/inbox/",
+					icon: "mdi:mail"
 				}
 			]
 		},
@@ -115,7 +115,7 @@ const defaultConfig = {
 			links: [
 				{
 					name: "GitHub",
-					url: "https://github.com",
+					url: "https://github.com/shvin",
 					icon: "mdi:github"
 				},
 				{
@@ -141,13 +141,13 @@ const defaultConfig = {
 			links: [
 				{
 					name: "Twitter",
-					url: "https://twitter.com",
+					url: "https://twitter.com/",
 					icon: "mdi:twitter"
 				},
 				{
-					name: "Mastodon",
-					url: "https://mastodon.social/",
-					icon: "ri:mastodon-fill"
+					name: "Spotify",
+					url: "https://volt.fm/shvin",
+					icon: "mdi:spotify"
 				},
 				{
 					name: "Reddit",
@@ -166,9 +166,9 @@ const defaultConfig = {
 			color: "cyan",
 			links: [
 				{
-					name: "Polygon",
-					url: "https://polygon.com",
-					icon: "uil:polygon"
+					name: "Steam",
+					url: "https://steamcommunity.com/id/st1gged/",
+					icon: "mdi:steam"
 				},
 				{
 					name: "IGN",
@@ -188,29 +188,29 @@ const defaultConfig = {
 			]
 		},
 		{
-			title: "Science",
+			title: "Tools",
 			color: "blue",
 			links: [
 				{
-					name: "PopSci",
-					url: "https://popsci.com/",
-					icon: "material-symbols:science"
+					name: "PDF Editor",
+					url: "https://simplepdf.eu/",
+					icon: "mdi:file-pdf"
 				},
 				{
-					name: "Space",
-					url: "fa6-solid:user-astronaut",
-					icon: "mdi:reddit"
+					name: "QMK",
+					url: "https://config.qmk.fm/#/sofle/rev1/LAYOUT",
+					icon: "mdi:apple-keyboard-option"
+				},
+				{
+					name: "JSON",
+					url: "https://jhelvy.shinyapps.io/qmkjsonconverter/",
+					icon: "mdi:json"
 				},
 				{
 					name: "NASA",
 					url: "https://blogs.nasa.gov/",
 					icon: "simple-icons:nasa"
 				},
-				{
-					name: "ESA",
-					url: "https://blogs.esa.int/",
-					icon: "mdi:black-mesa"
-				}
 			]
 		},
 		{
@@ -218,24 +218,24 @@ const defaultConfig = {
 			color: "yellow",
 			links: [
 				{
-					name: "TechCrunch",
-					url: "https://techcrunch.com/",
-					icon: "game-icons:techno-heart"
+					name: "ChatGPT",
+					url: "https://chat.openai.com/chat",
+					icon: "simple-icons:openai"
 				},
 				{
-					name: "Verge",
-					url: "https://www.theverge.com/",
-					icon: "arcticons:verge"
+					name: "3DPrint",
+					url: "https://thingiverse.com",
+					icon: "mdi:cube"
 				},
 				{
-					name: "It's Foss",
-					url: "https://itsfoss.com/",
-					icon: "ri:mastodon-fill"
+					name: "Crypto",
+					url: "https://coinmarketcap.com/",
+					icon: "mdi:bitcoin"
 				},
 				{
-					name: "9To5 Linux",
-					url: "https://9to5linux.com/",
-					icon: "uil:linux"
+					name: "KBDNews",
+					url: "https://kbd.news/",
+					icon: "mdi:keyboard"
 				}
 			]
 		}
