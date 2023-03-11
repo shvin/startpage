@@ -30,6 +30,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# config contains api keys
-startpage.config.js
