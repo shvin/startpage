@@ -30,3 +30,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# startup config now contains api keys
+startup.config.json

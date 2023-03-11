@@ -84,7 +84,7 @@ const defaultConfig = {
 	},
 	sections: [
 		{
-			title: "General",
+			title: "Home",
 			color: "green",
 			links: [
 				{
@@ -162,7 +162,7 @@ const defaultConfig = {
 			]
 		},
 		{
-			title: "Gaming",
+			title: "Entertainment",
 			color: "cyan",
 			links: [
 				{
@@ -176,9 +176,9 @@ const defaultConfig = {
 					icon: "mdi:currency-sign"
 				},
 				{
-					name: "RPS",
-					url: "https://rockpapershotgun.com/",
-					icon: "ph:toilet-paper-bold"
+					name: "YouTube",
+					url: "https://youtube.com",
+					icon: "mdi:youtube"
 				},
 				{
 					name: "NexusMods",
