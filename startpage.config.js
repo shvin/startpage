@@ -121,7 +121,7 @@ const defaultConfig = {
 				{
 					name: "Vercel",
 					url: "https://vercel.com/dashboard",
-					icon: "mdi:vercel"
+					icon: "mdi:server"
 				},
 				{
 					name: "Dev.to",
