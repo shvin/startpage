@@ -34,8 +34,8 @@ const Help = ({ closeCallback }) => {
 						help
 					</li>
 					<li>
-						<span className="text-blue">fetch</span> Display browser
-						information
+						<span className="text-blue">fet</span> Displays browser
+						and general information
 					</li>
 					<li>
 						<span className="text-blue">config</span> Configuration

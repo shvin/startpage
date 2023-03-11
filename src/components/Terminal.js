@@ -46,7 +46,7 @@ const Terminal = () => {
 			return <Help closeCallback={closeWindow} />
 		} else if (cmd === "config" && commands.length >= 2) {
 			return <Config commands={commands} closeCallback={closeWindow} />
-		} else if (cmd === "fetch") {
+		} else if (cmd === "fet") {
 			return <Fetch closeCallback={closeWindow} />
 		} else {
 			return <List />
