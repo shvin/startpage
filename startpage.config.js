@@ -34,8 +34,9 @@ const defaultConfig = {
 	fetch: {
 		dateFormat: "MM/DD/YYYY",
 		titleColor: "cyan",
-		weatherAPIkey: "0b7cd1353f02d9664e967d7b4db40e98",
-		weatherCity: "Ottawa"
+		weatherKey: "0b7cd1353f02d9664e967d7b4db40e98",
+		weatherCity: "Ottawa",
+		weatherUnit: "imperial"
 	},
 	urlLaunch: {
 		target: "_self"
