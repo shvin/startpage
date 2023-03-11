@@ -93,9 +93,9 @@ const defaultConfig = {
 					icon: "mdi:web"
 				},
 				{
-					name: "Devmail",
-					url: "https://mail.google.com/mail/u/0/#inbox",
-					icon: "mdi:email-lock"
+					name: "iCloud",
+					url: "https://www.icloud.com/mail/",
+					icon: "mdi:apple"
 				},
 				{
 					name: "Gmail",
@@ -119,9 +119,9 @@ const defaultConfig = {
 					icon: "mdi:github"
 				},
 				{
-					name: "GitLab",
-					url: "https://gitlab.com",
-					icon: "ph:gitlab-logo-simple-fill"
+					name: "Vercel",
+					url: "https://vercel.com/dashboard",
+					icon: "mdi:vercel"
 				},
 				{
 					name: "Dev.to",
