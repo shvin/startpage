@@ -4,7 +4,7 @@ const defaultConfig = {
 		fixedHeight: true,
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
-		glowColor: "#6b5cb157"
+		glowColor: "#394a99"
 	},
 	prompt: {
 		ctrlC: true,
@@ -20,16 +20,16 @@ const defaultConfig = {
 	},
 	colors: {
 		white: "#e2e2e2",
-		gray: "#97989d",
+		gray: "#686b75",
 		black: "#16161e",
 		red: "#ec6183",
-		green: "#2ed8a2",
-		yellow: "#e8b195",
-		blue: "#2bc3de",
-		cyan: "#62e0e2",
-		magenta: "#e069aa",
-		purple: "#d1aff8",
-		orange: "#ff8800"
+		green: "#44e3b0",
+		yellow: "#ede07e",
+		blue: "#35aee6",
+		cyan: "#58ede1",
+		magenta: "#d469e0",
+		purple: "#b29aed",
+		orange: "#e6973e"
 	},
 	fetch: {
 		dateFormat: "MM/DD/YYYY",
@@ -155,9 +155,9 @@ const defaultConfig = {
 					icon: "mdi:reddit"
 				},
 				{
-					name: "Polywork",
-					url: "https://polywork.com",
-					icon: "simple-icons:polywork"
+					name: "LinkedIn",
+					url: "https://www.linkedin.com/in/ashvinr03/",
+					icon: "mdi:linkedin"
 				}
 			]
 		},
@@ -181,9 +181,9 @@ const defaultConfig = {
 					icon: "ph:toilet-paper-bold"
 				},
 				{
-					name: "80lv",
-					url: "https://80.lv/",
-					icon: "tabler:hand-rock"
+					name: "NexusMods",
+					url: "https://www.nexusmods.com/",
+					icon: "mdi:file-cog"
 				}
 			]
 		},
@@ -207,9 +207,9 @@ const defaultConfig = {
 					icon: "mdi:json"
 				},
 				{
-					name: "NASA",
-					url: "https://blogs.nasa.gov/",
-					icon: "simple-icons:nasa"
+					name: "Mtype",
+					url: "https://monkeytype.com/",
+					icon: "mdi:typewriter"
 				},
 			]
 		},
