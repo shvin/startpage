@@ -21,10 +21,7 @@ const Fetch = ({ closeCallback }) => {
 
 	useEffect(() => {
 		// set the weather using the openweather api with the user's city and api key from the settings. the weather should consist of the temperature, and weather description
-		//const url = `https://api.openweathermap.org/data/2.5/weather?q=Ottawa&appid=0b7cd1353f02d9664e967d7b4db40e98&units=metric`
-		const url = `https://api.openweathermap.org/data/2.5/weather?q=${settings.fetch.weatherCity}&appid=${settings.fetch.weatherAPIkey}&units=imperial`
-		console.log(moment().format(settings.fetch.weatherCity))
-		console.log(moment().format(settings.fetch.weatherAPIkey))
+		const url = `https://api.openweathermap.org/data/2.5/weather?q=${settings.fetch.weatherCity}&appid=${settings.fetch.weatherAPIkey}&units=${settings.fetch.weatherUnit}`
 		fetch(url)
 			.then((response) => response.json())
 			.then((data) => {
@@ -81,7 +78,7 @@ const Fetch = ({ closeCallback }) => {
 										className={`text-${settings.fetch.titleColor}`}>
 										Weather:
 									</span>{" "}
-									{info.temp}°F, {info.weather}
+									{info.temp}°, {info.weather}
 								</li>
 							</ul>
 							<ul className="mt-line">
