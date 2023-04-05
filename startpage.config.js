@@ -168,13 +168,13 @@ const defaultConfig = {
 			links: [
 				{
 					name: "Steam",
-					url: "https://steamcommunity.com/id/st1gged/",
+					url: "https://steamcommunity.com/id/shvin/",
 					icon: "mdi:steam"
 				},
 				{
-					name: "IGN",
-					url: "https://ign.com",
-					icon: "mdi:currency-sign"
+					name: "Faceit",
+					url: "https://www.faceit.com/en/home",
+					icon: "mdi:gamepad-circle-left"
 				},
 				{
 					name: "YouTube",
