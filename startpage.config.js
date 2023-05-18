@@ -2,9 +2,9 @@ const defaultConfig = {
 	username: "ashvin",
 	terminal: {
 		fixedHeight: true,
-		backgroundColor: "#121317",
-		windowColor: "#1e212b",
-		glowColor: "#394a99"
+		backgroundColor: "#111414",
+		windowColor: "#141718",
+		glowColor: "#1e3e3d"
 	},
 	prompt: {
 		ctrlC: true,
@@ -19,15 +19,15 @@ const defaultConfig = {
 		selectionFg: "#16161e"
 	},
 	colors: {
-		white: "#e2e2e2",
+		white: "#787c99",
 		gray: "#686b75",
-		black: "#16161e",
-		red: "#ec6183",
-		green: "#44e3b0",
-		yellow: "#ede07e",
-		blue: "#35aee6",
-		cyan: "#58ede1",
-		magenta: "#d469e0",
+		black: "#32344a",
+		red: "#f7768e",
+		green: "#9ece6a",
+		yellow: "#e0af68",
+		blue: "#7aa2f7",
+		cyan: "#449dab",
+		magenta: "#ad8ee6",
 		purple: "#b29aed",
 		orange: "#e6973e"
 	},
@@ -36,7 +36,7 @@ const defaultConfig = {
 		titleColor: "cyan",
 		weatherUnit: "imperial",
 		weatherAPIkey: "0b7cd1353f02d9664e967d7b4db40e98",
-		weatherCity: "Ottawa"
+		weatherCity: "Atlanta"
 	},
 	urlLaunch: {
 		target: "_self"
@@ -57,19 +57,9 @@ const defaultConfig = {
 				url: "https://duckduckgo.com/?q={}"
 			},
 			{
-				alias: "b",
-				name: "Brave Search",
-				url: "https://search.brave.com/search?q={}"
-			},
-			{
 				alias: "gh",
 				name: "Github Search",
 				url: "https://github.com/search?q={}"
-			},
-			{
-				alias: "s",
-				name: "Stack Overflow Search",
-				url: "https://stackoverflow.com/search?q={}"
 			},
 			{
 				alias: "r",
@@ -120,8 +110,8 @@ const defaultConfig = {
 					icon: "mdi:github"
 				},
 				{
-					name: "Vercel",
-					url: "https://vercel.com/dashboard",
+					name: "Stories",
+					url: "https://app.shortcut.com/flipstone/dashboard",
 					icon: "mdi:server"
 				},
 				{
@@ -146,9 +136,9 @@ const defaultConfig = {
 					icon: "mdi:slack"
 				},
 				{
-					name: "Spotify",
-					url: "https://volt.fm/shvin",
-					icon: "mdi:spotify"
+					name: "Gather",
+					url: "https://app.gather.town/app",
+					icon: "mdi:account-group"
 				},
 				{
 					name: "Reddit",
@@ -182,9 +172,9 @@ const defaultConfig = {
 					icon: "mdi:youtube"
 				},
 				{
-					name: "NexusMods",
-					url: "https://www.nexusmods.com/",
-					icon: "mdi:file-cog"
+					name: "RSI",
+					url: "https://robertsspaceindustries.com/",
+					icon: "mdi:space-station"
 				}
 			]
 		},
@@ -203,12 +193,12 @@ const defaultConfig = {
 					icon: "mdi:apple-keyboard-option"
 				},
 				{
-					name: "JSON",
+					name: "JSON Converter",
 					url: "https://jhelvy.shinyapps.io/qmkjsonconverter/",
 					icon: "mdi:json"
 				},
 				{
-					name: "Mtype",
+					name: "MonkeyType",
 					url: "https://monkeytype.com/",
 					icon: "mdi:typewriter"
 				},
