@@ -141,9 +141,9 @@ const defaultConfig = {
 			color: "purple",
 			links: [
 				{
-					name: "Twitter",
-					url: "https://twitter.com/",
-					icon: "mdi:twitter"
+					name: "Slack",
+					url: "https://flipstonetech.slack.com",
+					icon: "mdi:slack"
 				},
 				{
 					name: "Spotify",
@@ -193,9 +193,9 @@ const defaultConfig = {
 			color: "blue",
 			links: [
 				{
-					name: "PDF Editor",
-					url: "https://simplepdf.eu/",
-					icon: "mdi:file-pdf"
+					name: "Ergodox",
+					url: "https://configure.zsa.io/ergodox-ez/layouts/qByVz/latest/0",
+					icon: "mdi:keyboard-caps"
 				},
 				{
 					name: "QMK",
@@ -224,14 +224,14 @@ const defaultConfig = {
 					icon: "simple-icons:openai"
 				},
 				{
-					name: "3DPrint",
-					url: "https://thingiverse.com",
-					icon: "mdi:cube"
+					name: "Gusto",
+					url: "https://app.gusto.com/",
+					icon: "mdi:file-sign"
 				},
 				{
-					name: "Crypto",
-					url: "https://coinmarketcap.com/",
-					icon: "mdi:bitcoin"
+					name: "Localhost",
+					url: "http://localhost:8080/",
+					icon: "mdi:lan"
 				},
 				{
 					name: "KBDNews",
