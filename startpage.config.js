@@ -214,9 +214,9 @@ const defaultConfig = {
 					icon: "simple-icons:openai"
 				},
 				{
-					name: "Gusto",
-					url: "https://app.gusto.com/",
-					icon: "mdi:file-sign"
+					name: "Calendar",
+					url: "https://calendar.google.com/calendar/u/0/r",
+					icon: "mdi:calendar"
 				},
 				{
 					name: "Localhost",
